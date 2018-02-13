@@ -1,0 +1,16 @@
+{
+  "name": "cli-contacts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Matthew Bliffert",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "cli-contacts": "./contact.js"
+  },
+  "dependencies": {
+    "commander": "^2.14.1",
+    "inquirer": "^5.1.0",
+    "mongoose": "^5.0.4"
+  }
+}
